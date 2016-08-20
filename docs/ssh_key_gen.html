@@ -1,0 +1,51 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Prana - http://***.*****.***">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (X11; I; Linux 2.2.16-9mdkfb i686) [Netscape]">
+   <meta name="Keywords" content="ssh">
+   <title>SSH Key Generator</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#0000FF" vlink="#FF0000" alink="#000088">
+
+<h1>
+GTelnet</h1>
+
+<h3>
+<a href="http://***.*****.***">http://***.*****.***</a></h3>
+
+<hr WIDTH="100%">
+<p><b>This is howto generate a key:</b>
+<br>From the shell prompt, type "ssh-keygen" with the desired parameters:
+<br>Usage: <b><font color="#FF0000">ssh-keygen [-lpqxXydc] [-b bits] [-f
+file] [-C comment] [-N new-pass] [-P pass]</font></b><b><tt><font color="#993300"></font></tt></b>
+<p><b><tt><font color="#CC33CC">[*****@*****.***]$ ssh-keygen -b 1024
+-C "This is a comment"</font></tt></b>
+<br><b><tt><font color="#CC33CC">Generating RSA keys:</font></tt></b>
+<br><b><tt><font color="#CC33CC">........................ooooooO.....ooooooO</font></tt></b>
+<br><b><tt><font color="#CC33CC">Key generation complete.</font></tt></b>
+<br><b><tt><font color="#CC33CC">Enter file in which to save the key (/home/prana/.ssh/identity):</font></tt></b>
+<br><b><tt><font color="#CC33CC">Enter passphrase (empty for no passphrase):&nbsp;
+</font><font color="#3366FF">xxxxxxxxxxxxxxx (use a lengthy passphrase)</font></tt></b>
+<br><b><tt><font color="#CC33CC">Enter same passphrase again:&nbsp; </font><font color="#3366FF">(re-enter
+your passphrase here)</font></tt></b>
+<br><b><tt><font color="#CC33CC">Your identification has been saved in
+/home/prana/.ssh/identity.</font></tt></b>
+<br><b><tt><font color="#CC33CC">Your public key has been saved in /home/prana/.ssh/identity.pub.</font></tt></b>
+<br><b><tt><font color="#CC33CC">The key fingerprint is:</font></tt></b>
+<br><b><tt><font color="#CC33CC">14:e9:46:1e:00:a7:f6:20:d4:0d:af:84:74:b0:72:32
+*****@*****.***</font></tt></b>
+<p><b>Bits</b>. Specifiy the length of the key in bits, for example: 512,
+1024, 2048, 4096, 8192, 16384 bits . 1024 is sufficient.
+<p><b>Passphrase.</b> Specify the passphrase that you want to use. Choose
+a good paraphrase: something that other people can't guess but it's easy
+to remember. A good paraphrase is 10-30 characters, not a simple sentence
+and/or easily guessable.
+<p>
+<hr WIDTH="100%">
+<center><a href="index.html">Home</a></center>
+
+<p><br>
+</body>
+</html>

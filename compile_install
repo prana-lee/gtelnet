@@ -1,0 +1,4 @@
+#### Automatic compile and install###
+#!/bin/sh
+#####################################
+su -c "./autogen.sh --prefix=/usr && make && strip src/gnome-telnet && make install && ./install_shared"

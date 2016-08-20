@@ -1,0 +1,158 @@
+# gnome-telnet ja.po.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Takeshi Aihana <aihana@muc.biglobe.ne.jp>, 2000.
+#
+#: src/interface.c:550
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-telnet 1.2\n"
+"POT-Creation-Date: 2000-06-02 09:56-0600\n"
+"PO-Revision-Date: 2000-06-03 15:40+0900\n"
+"Last-Translator: Takeshi Aihana <aihana@muc.biglobe.ne.jp>\n"
+"Language-Team: Japanese <translation@gnome.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=euc-jp\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/interface.c:46
+msgid "GNOME Telnet"
+msgstr "GNOME Telnet"
+
+#: src/interface.c:85
+msgid "Host name "
+msgstr "ホスト名 "
+
+#: src/interface.c:99
+msgid "Port "
+msgstr "ポート番号 "
+
+#: src/interface.c:119 src/interface.c:120
+msgid "Connect"
+msgstr "接続"
+
+#: src/interface.c:131 src/interface.c:132
+msgid "Disconnect"
+msgstr "切断"
+
+#: src/interface.c:143 src/interface.c:144
+msgid "Preferences"
+msgstr "設定"
+
+#: src/interface.c:155 src/interface.c:156
+msgid "About"
+msgstr "情報"
+
+#: src/interface.c:211
+msgid "Copyright (C) 2000 the Free Software Foundation"
+msgstr ""
+
+#: src/interface.c:213
+msgid "A frontend to the ole good telnet client"
+msgstr "古いがなかなかの'telnet'コマンドのフロントエンド"
+
+#: src/interface.c:263
+msgid "Specify an 8-bit data path"
+msgstr "8ビットデータをそのまま通す"
+
+#: src/interface.c:270
+msgid "Specify an 8-bit data path on output"
+msgstr "データ出力時に8ビットクリーンにする"
+
+#: src/interface.c:277
+msgid "Stop any character from being  recognized as an escape character"
+msgstr "エスケープキャラクタの解釈を禁止する"
+
+#: src/interface.c:284
+msgid ""
+"Forward a forwardable copy of the local credentials to the remote system"
+msgstr "リモートホストへローカルホストの認証情報のコピーをフォワードする"
+
+#: src/interface.c:291
+msgid "Attempt automatic login"
+msgstr "自動ログインを試す"
+
+#: src/interface.c:298
+msgid "Specify a user interface similar to rlogin"
+msgstr "rlogin(1) と似たインタフェースを提供する"
+
+#: src/interface.c:305
+msgid "Turn on encryption of the data stream"
+msgstr "可能であればデータストリームの暗号化を有効にする"
+
+#: src/interface.c:312
+msgid "Set the initial value of the debug flag to TRUE"
+msgstr "変数 debug の初期値を TRUE に設定する"
+
+#: src/interface.c:326
+msgid "Set  the initial telnet escape character to: "
+msgstr "テルネットのエスケープ文字の初期値: "
+
+#: src/interface.c:352
+msgid ""
+"Set the IP type-of-service  (TOS)  option  for  the telnet    connection to "
+"the value"
+msgstr "IPサービス型(TOS)に設定する値"
+
+#: src/interface.c:374
+msgid "Disable the atype type of authentication: "
+msgstr "ユーザー認証で無効にする atype: "
+
+#: src/interface.c:396
+msgid ""
+"Request telnet to obtain Kerberos tickets for the remote host in the realm:"
+msgstr "Kerberos V5 ユーザー認証のオプション: "
+
+#: src/interface.c:417
+msgid "Trace file :"
+msgstr ".telnetrcファイル: "
+
+#: src/interface.c:438
+msgid "Telnet Options"
+msgstr "テルネット オプション"
+
+#: src/interface.c:468
+msgid "Background color"
+msgstr "背景色"
+
+#: src/interface.c:478
+msgid "Foreground color"
+msgstr "前景色"
+
+#: src/interface.c:488
+msgid "Executable files color"
+msgstr "実行可能なファイルの色"
+
+#: src/interface.c:498
+msgid "Directories color"
+msgstr "ディレクトリの色"
+
+#: src/interface.c:507
+msgid "Display font"
+msgstr "フォント"
+
+#: src/interface.c:516
+msgid "Background Image"
+msgstr "背景画像"
+
+#: src/interface.c:525
+msgid "Transparent"
+msgstr "背景を透明にする"
+
+#: src/interface.c:534
+msgid "Select Background Image"
+msgstr "背景画像を選択してください"
+
+#: src/interface.c:597
+msgid "Display Options"
+msgstr "表示オプション"
+
+#: src/support.c:97 src/support.c:135
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "画像ファイルが見つかりませんでした: %s"
+
+#: src/support.c:113
+#, c-format
+msgid "Couldn't create pixmap from file: %s"
+msgstr "ファイルから画像を取得できませんでした: %s"

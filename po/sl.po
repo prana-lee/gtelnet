@@ -1,0 +1,381 @@
+# Slovene
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Grega Bremec <gregab@gbsoft.org>, 2000.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-telnet 2.2\n"
+"POT-Creation-Date: 2000-11-22 21:00+0100\n"
+"PO-Revision-Date: 2000-11-22 21:00+0100\n"
+"Last-Translator: Grega Bremec <gregab@gbsoft.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/interface.c:64
+msgid "8-bit data path (both output and input)"
+msgstr "8-bitni podatkovni prenos (v obe smeri)"
+
+#: src/interface.c:65
+msgid "8-bit data path on output"
+msgstr "8-bitni podatkovni prenos (samo oddajanje)"
+
+#: src/interface.c:66
+msgid "Stop any character from being recognized as an escape character"
+msgstr "Prepreèi, da bi katerikoli znak dobil prekinitveno vlogo"
+
+#: src/interface.c:67
+msgid ""
+"Forward a forwardable copy of the local credentials to the remote system (if "
+"Kerberos V5 is used)"
+msgstr "Podaj (mo¾no) kopijo lokalnih sredstev za prijavo oddaljenemu sistemu "
+"(Èe je uporabljan Kerberos 5)"
+
+#: src/interface.c:68
+msgid "Attempt automatic login"
+msgstr "Poskusi z avtomatsko prijavo"
+
+#: src/interface.c:69
+msgid "Specify a user interface similar to rlogin"
+msgstr "Uporabi uporabni¹ki vmesnik, podoben rlogin-u"
+
+#: src/interface.c:70
+msgid "Turn on encryption of the data stream"
+msgstr "Vkljuèi kriptiranje podatkovnega toka"
+
+#: src/interface.c:71
+msgid "Set the initial value of the debug flag to TRUE"
+msgstr "®e od zaèetka vkljuèi razhro¹èevanje"
+
+#: src/interface.c:72 src/interface.c:104
+msgid "Set the initial telnet escape character to:"
+msgstr "Nastavi zaèetni prekinitveni znak za telnet na:"
+
+#: src/interface.c:73
+msgid "Set the IP type-of-service  (TOS)  option  to the value:"
+msgstr "Nastavi IP Type-Of-Service (TOS) na vrednost:"
+
+#: src/interface.c:74
+msgid "Disable the type of authentication: "
+msgstr "Prepreèi tip prijave:"
+
+#: src/interface.c:75
+msgid "Request  Kerberos tickets for the remote host in the realm:"
+msgstr "Zahtevaj vstopnice Kerberos za oddaljeni sistem v skupini:"
+
+#: src/interface.c:76
+msgid "Trace file :"
+msgstr "Sledilna datoteka:"
+
+#: src/interface.c:80
+msgid "Redirect input from /dev/null"
+msgstr "Preusmeri vhod podatkov z /dev/null"
+
+#: src/interface.c:81
+msgid "Disable authentication agent forwarding"
+msgstr "Prepreèi predajo prijavnega agenta"
+
+#: src/interface.c:82
+msgid "Disable X11 connection forwarding"
+msgstr "Prepreèi predajo povezav X11"
+
+#: src/interface.c:83
+msgid "Allocate a tty even if command is given"
+msgstr "Zasedi terminal èetudi je podan samo ukaz"
+
+#: src/interface.c:84
+msgid "Display verbose debugging messages"
+msgstr "Prika¾i podrobna sporoèila o poteku"
+
+#: src/interface.c:85
+msgid "Don't allocate a privileged port"
+msgstr "Ne uporabljaj privilegiranih vrat"
+
+#: src/interface.c:86
+msgid "Don't display any warning messages"
+msgstr "Ne ka¾i opozorilnih sporoèil"
+
+#: src/interface.c:87
+msgid "Fork into background after authentication"
+msgstr "Razcepi program v ozadje po prijavi"
+
+#: src/interface.c:88
+msgid "Enable compression"
+msgstr "Uporabi stiskanje podatkov"
+
+#: src/interface.c:89
+msgid "Allow remote hosts to connect to local forwarded ports"
+msgstr "Dovoli oddaljenemu sistemu povezavo na lokalno predana vrata"
+
+#: src/interface.c:90
+msgid "Don't request a session"
+msgstr "Ne zahtevaj seanse"
+
+#: src/interface.c:91
+msgid "Set SSH2 debug level to:"
+msgstr "Nastavi razhro¹èevanje SSH2 na nivo:"
+
+#: src/interface.c:92
+msgid "Identity file for public key authentication to:"
+msgstr "Identitete za prijavo z javnim kljuèem so v datoteki:"
+
+#: src/interface.c:93
+msgid "Set escape character to:"
+msgstr "Nastavi prekinitveni znak na:"
+
+#: src/interface.c:94
+msgid "Select encryption algorithm"
+msgstr "Nastavi kriptirni algoritem"
+
+#: src/interface.c:98
+msgid "Allows an eight-bit input data path at all times"
+msgstr "Vedno dovoli osembitno podatkovno pot"
+
+#: src/interface.c:99
+msgid "Stops any character from being recognized as an escape character"
+msgstr "Prepreèi, da bi katerikoli znak dobil prekinitveno vlogo"
+
+#: src/interface.c:100
+msgid "Turns off all Kerberos authentication"
+msgstr "Popolnoma izkljuèi prijavljanje Kerberos"
+
+#: src/interface.c:101
+msgid "Allows the rlogin session to be run in \"litout\" mode"
+msgstr "Dovoli rlogin seansi da teèe v \"ugasnjenem\" naèinu"
+
+#: src/interface.c:102
+msgid "Turns on socket debugging"
+msgstr "Vkljuèi razhro¹èevanje vtiènic (socket)"
+
+#: src/interface.c:103
+msgid "Turns on DES encryption for all data passed via the rlogin session"
+msgstr "Vkljuèi kriptiranje DES za vse podatke prenesene v seansi rlogin"
+
+#: src/interface.c:105
+msgid "Request Kerberos tickets for the remote host in the realm:"
+msgstr "Zahtevaj vstopnice Kerberos za oddaljeni sistem v skupini:"
+
+#: src/interface.c:238
+msgid "GTelnet"
+msgstr "GTelnet"
+
+#: src/interface.c:268
+msgid "Select one of the options"
+msgstr "Izberi eno od mo¾nosti"
+
+#: src/interface.c:276
+msgid " Host name "
+msgstr " Ime sistema "
+
+#: src/interface.c:296
+msgid " Port "
+msgstr " Vrata "
+
+#: src/interface.c:300
+msgid "port number -- leave blank for default"
+msgstr "¹tevilka vrat -- pusti prazno za privzeto vrednost"
+
+#: src/interface.c:305
+msgid "Connect"
+msgstr "Vklop"
+
+#: src/interface.c:305
+msgid "Connect to the remote host"
+msgstr "Prijavi se na oddaljeni sistem"
+
+#: src/interface.c:307
+msgid "Disconnect"
+msgstr "Izklop"
+
+#: src/interface.c:307
+msgid "Disconnect from the remote host"
+msgstr "Odjavi se z oddaljenega sistema"
+
+#: src/interface.c:309 src/interface.c:640
+msgid "Preferences"
+msgstr "Nastavitve"
+
+#: src/interface.c:309
+msgid "Change your settings"
+msgstr "Spremeni nastavitve programa"
+
+#: src/interface.c:311
+msgid "Help"
+msgstr "Pomoè"
+
+#: src/interface.c:311 src/interface.c:477
+msgid "Documentation"
+msgstr "Navodila"
+
+#: src/interface.c:371
+msgid "Information"
+msgstr "Informacije"
+
+#: src/interface.c:433
+msgid "About GTelnet"
+msgstr "O GTelnet-u"
+
+#: src/interface.c:452
+msgid "Click here for a complete documentation"
+msgstr "Klikni sem za celotna navodila"
+
+#: src/interface.c:475
+msgid ""
+"GTelnet is a frontend for the following programs:\n"
+"\n"
+"- Telnet:  to communicate with another host using the TELNET protocol. \n"
+"\n"
+"- SSH:  ssh (Secure Shell) is a program for logging into a remote machine "
+"and for executing commands on a remote machine.  It is intended to replace "
+"rlogin and rsh, and provide secure encrypted communications between two "
+"untrusted hosts over an insecure network.  X11 connections and arbitrary "
+"TCP/IP ports can also be forwarded over the secure channel. (Copied from SSH "
+"manual)\n"
+"\n"
+"- RLogin: rlogin is a program that is a little bit similar to telnet. It is "
+"intended to make remote administration over local area network easier, but "
+"it can be very insecure. It is recommended that you use SSH instead of "
+"rlogin."
+msgstr ""
+"GTelnet je vmesnik za naslednje programe:\n"
+"\n"
+"- Telnet: prenos podatkov po protokolu TELNET. \n"
+"\n"
+"- SSH: ssh (Secure Shell) je program za interaktivno prijavo v oddaljeni "
+"sistem in za izvajanje ukazov na tem sistemu (tudi brez prijave). Namenjen "
+"je kot zamenjava za programa rlogin in rsh, in omogoèa varne, kriptiran prenos "
+"podatkov med dvema nepoznanima sistemoma prek neza¹èitene mre¾e. Tudi povezave "
+"X11 in poljubna vrata TCP/IP je mogoèe predajati prek varne povezave, ki jo "
+"omogoèa SSH. (Odlomek iz navodil za uporabo SSH)\n"
+"\n"
+"- RLogin: rlogin je program, ki je malce podoben telnet-u. Namenjen je poenostavitvi "
+"oddaljenega upravljanja s sistemom prek lokalne mre¾e, a je navadno precej neza¹èiten. "
+"Priporoèljivo je uporabljati SSH namesto rlogin-a."
+
+#: src/interface.c:495
+msgid "Copyright (C) 2000 the Free Software Foundation"
+msgstr "Pravica do kopiranja (C) 2000, the Free Software Foundation"
+
+#: src/interface.c:497
+msgid "GTelnet is a frontend to the ole good telnet, ssh, and rlogin"
+msgstr "GTelnet je vmesnik za uporabo dobrega starega telnet-a, ssh-ja in rlogin-a."
+
+#: src/interface.c:499
+msgid "Authors: "
+msgstr "Avtorji: "
+
+#: src/interface.c:534
+msgid "Authors"
+msgstr "Avtorji"
+
+#: src/interface.c:570
+msgid ""
+"Today, there's a lot of poor children out there who need your help.\n"
+"\n"
+"For a dollar a day, you can help change a child's life forever. With your "
+"sponsorship, you will help provide basic needs like clean water, schools, "
+"clinics and agricultural training that will lift your sponsored child, "
+"his/her family, and community - out of poverty.\n"
+"\n"
+"If you have the resources available and if you're willing to help those who "
+"are less fortunate, please sponsor a child."
+msgstr ""
+"Dandana¹nji je na svetu zelo veliko ubogih otrok, ki potrebujejo va¹o pomoè.\n"
+"\n"
+"Za dolar na dan lahko spremenite otrokovo ¾ivljenje za vedno. Z va¹o pomoèjo "
+"bo takim otrokom la¾e omogoèiti zadovoljitev osnovnih potreb, kot je npr. èista "
+"voda, ¹olanje, zdravstvena oskrba in nasveti za kmetovanje. Otroku, ki si ga "
+"boste izbrali kot mecen, ravno tako pa njegovi/njeni dru¾ini in dru¾bi, bo to "
+"pomagalo re¹iti se rev¹èine."
+
+#: src/interface.c:572
+msgid "For more information, please visit:"
+msgstr "Èe ¾elite veè informacij, obi¹èite "
+
+#: src/interface.c:576
+msgid "http://www.WorldVision.com"
+msgstr "http://www.worldvision.com/"
+
+#: src/interface.c:585
+msgid "Please Help Needy Children"
+msgstr "Prosimo, pomagajte otrokom v te¾avah"
+
+#: src/interface.c:704
+msgid "Trace file"
+msgstr "Sledilna datoteka"
+
+#: src/interface.c:723
+msgid "Telnet Options"
+msgstr "Mo¾nosti Telnet-a"
+
+#: src/interface.c:799
+msgid "SSH Options"
+msgstr "Mo¾nosti SSH"
+
+#: src/interface.c:848
+msgid "RLogin Options"
+msgstr "Mo¾nosti rlogin-a"
+
+#: src/interface.c:858
+msgid "Background Color"
+msgstr "Barva ozadja"
+
+#: src/interface.c:863
+msgid "Foreground color"
+msgstr "Barva èrk"
+
+#: src/interface.c:867
+msgid "Executable files color"
+msgstr "Barva programskih datotek"
+
+#: src/interface.c:871
+msgid "Directories color"
+msgstr "Barva map"
+
+#: src/interface.c:875
+msgid "Display font"
+msgstr "Oblika èrk"
+
+#: src/interface.c:879
+msgid "Background Image"
+msgstr "Slika v ozadju"
+
+#: src/interface.c:887
+msgid "Terminal type:"
+msgstr "Tip terminala:"
+
+#: src/interface.c:984
+msgid "ansi"
+msgstr "ANSI"
+
+#: src/interface.c:987
+msgid "Display Settings"
+msgstr "Nastavitve prikaza"
+
+#: src/interface.c:1034
+msgid "SSH Login"
+msgstr "Prijava SSH"
+
+#: src/interface.c:1051
+msgid "Username:"
+msgstr "Uporabni¹ko ime:"
+
+#: src/interface.c:1339
+msgid "Please fill in the host name :-)"
+msgstr "Vnesi ime oddaljenega sistema :-)"
+
+#: src/interface.c:1395
+msgid "Not connected"
+msgstr "Izkljuèeno"
+
+#: src/support.c:100 src/support.c:138
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Ni bilo mo¾no najti datoteke s sliko: %s"
+
+#: src/support.c:116
+#, c-format
+msgid "Couldn't create pixmap from file: %s"
+msgstr "Ni bilo mogoèe najti slike v datoteki: %s"

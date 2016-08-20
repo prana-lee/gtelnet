@@ -1,0 +1,7 @@
+?package(gnome-telnet):\
+needs="x11"\
+section="Networking/Remote access"\
+title="Telnet, SSH, and RLogin"\
+longtitle="A cool front-end for telnet, ssh, and rlogin"\
+command="/usr/bin/gnome-telnet"\
+icon=gnome-telnet.xpm

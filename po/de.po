@@ -1,0 +1,395 @@
+# German
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Matthias Wimmer <mail@mawis.org>, 2000.
+# Prana, 2000. -- Add a little bit
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gnome_Telnet 2.2\n"
+"POT-Creation-Date: 2000-07-28 14:18-0600\n"
+"PO-Revision-Date: 2000-08-09 14:30+0200\n"
+"Last-Translator: Matthias Wimmer <mail@mawis.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/interface.c:49
+msgid "8-bit data path (both output and input)"
+msgstr "W�hle einen 8-Bit-Datenpfad (Ein- und Ausgabe)"
+
+#: src/interface.c:50
+msgid "8-bit data path on output"
+msgstr "W�hle einen 8-Bit-Datenpfad f�r die Ausgabe"
+
+#: src/interface.c:51
+msgid "Stop any character from being recognized as an escape character"
+msgstr "Keine Zeichen als Escape-Zeichen erkennen"
+
+#: src/interface.c:52
+msgid ""
+"Forward a forwardable copy of the local credentials to the remote system (if "
+"Kerberos V5 is used)"
+msgstr ""
+"Leite eine m�gliche Kopie der lokalen Credentials an das entfernte System weiter (wenn "
+"Kerberos V5 benutzt wird)"
+
+#: src/interface.c:53
+msgid "Attempt automatic login"
+msgstr "Versuche automatische Anmeldung"
+
+#: src/interface.c:54
+msgid "Specify a user interface similar to rlogin"
+msgstr "W�hle eine Benutzerschnittstelle �hnlich rlogin"
+
+#: src/interface.c:55
+msgid "Turn on encryption of the data stream"
+msgstr "Einschalten der Verschl�sselung des Datenstromes"
+
+#: src/interface.c:56
+msgid "Set the initial value of the debug flag to TRUE"
+msgstr "Setze Grundzustand des Debug-Flags auf WAHR"
+
+#: src/interface.c:57 src/interface.c:89
+msgid "Set the initial telnet escape character to:"
+msgstr "Setze die Voreinstellung des Telnet-Escape-Zeichens auf:"
+
+#: src/interface.c:58
+msgid "Set the IP type-of-service  (TOS)  option  to the value:"
+msgstr "Setze den Type-of-Service (TOS) der IP-Pakete auf folgenden Wert:"
+
+#: src/interface.c:59
+msgid "Disable the type of authentication: "
+msgstr "Unterbinde den atype-Typ der Anmeldung: "
+
+#: src/interface.c:60
+msgid "Request  Kerberos tickets for the remote host in the realm:"
+msgstr "Fordere Kerberos-Tickets f�r den entfernten Rechner in folgendem Realm an:"
+
+#: src/interface.c:61
+msgid "Trace file :"
+msgstr "Trace-Datei"
+
+#: src/interface.c:65
+msgid "Redirect input from /dev/null"
+msgstr "Umleiten von Eingaben von /dev/null"
+
+#: src/interface.c:66
+msgid "Disable authentication agent forwarding"
+msgstr "Unterbinden einer Authentifizierungs-Weiterleitung"
+
+#: src/interface.c:67
+msgid "Disable X11 connection forwarding"
+msgstr "Unterbinden einer X11-Weiterleitung"
+
+#: src/interface.c:68
+msgid "Allocate a tty even if command is given"
+msgstr "Eine Konsole anfordern auch wenn ein Kommando angegeben ist"
+
+#: src/interface.c:69
+msgid "Display verbose debugging messages"
+msgstr "Anzeige ausf�hrlicher Meldungen zur Fehlersuche"
+
+#: src/interface.c:70
+msgid "Don't allocate a privileged port"
+msgstr "Keinen privilegierten Port anfordern"
+
+#: src/interface.c:71
+msgid "Don't display any warning messages"
+msgstr "Keine Warnmeldungen ausgeben"
+
+#: src/interface.c:72
+msgid "Fork into background after authentication"
+msgstr "Nach Authentifizierung in den Hintergrund verzweigen"
+
+#: src/interface.c:73
+msgid "Enable compression"
+msgstr "Komprimierung aktivieren"
+
+#: src/interface.c:74
+msgid "Allow remote hosts to connect to local forwarded ports"
+msgstr "Entfernten Rechnern die Benutzung weitergeleiteter Ports erlauben"
+
+#: src/interface.c:75
+msgid "Don't request a session"
+msgstr "Keinen Sitzung fordere"
+
+#: src/interface.c:76
+msgid "Set SSH2 debug level to:"
+msgstr "SSH2 Debug-level:"
+
+#: src/interface.c:77
+msgid "Identity file for public key authentication to:"
+msgstr "Identit�t f�r Authentifizierung"
+
+#: src/interface.c:78
+msgid "Set escape character to:"
+msgstr "Escape-Zeichen w�hlen"
+
+#: src/interface.c:79
+msgid "Select encryption algorithm"
+msgstr "Verschl�sselungsmethode w�hlen"
+
+#: src/interface.c:83
+msgid "Allows an eight-bit input data path at all times"
+msgstr "Erlaubt grunds�tzlich einen 8-Bit-Eingabedatenstrom"
+
+#: src/interface.c:84
+msgid "Stops any character from being recognized as an escape character"
+msgstr "Keine Zeichen als Escape-Zeichen erkennen"
+
+#: src/interface.c:85
+msgid "Turns off all Kerberos authentication"
+msgstr "Kerberos-Authentifizierung ausschalten"
+
+#: src/interface.c:86
+msgid "Allows the rlogin session to be run in \"litout\" mode"
+msgstr "Erlaube rlogin-Sitzung im \"litout\"-Modus"
+
+#: src/interface.c:87
+msgid "Turns on socket debugging"
+msgstr "Einschalten des Socket-Debugging"
+
+#: src/interface.c:88
+msgid "Turns on DES encryption for all data passed via the rlogin session"
+msgstr "Einschalten der DES-Verschl�sselung f�r alle �ber die rlogin-Sitzung ausgetauschten Daten"
+
+#: src/interface.c:90
+msgid "Request Kerberos tickets for the remote host in the realm:"
+msgstr "Fordere Kerberos-Tickets f�r den entfernten Rechner in folgendem Realm an:"
+
+#: src/interface.c:223
+msgid "GTelnet"
+msgstr "GTelnet"
+
+#: src/interface.c:253
+msgid "Select one of the options"
+msgstr "W�hlen Sie eine der Optionen"
+
+#: src/interface.c:261
+msgid " Host name "
+msgstr " Rechner "
+
+#: src/interface.c:281
+msgid " Port "
+msgstr " Port "
+
+#: src/interface.c:285
+msgid "port number -- leave blank for default"
+msgstr "Port-Nummer -- leer f�r Standart"
+
+#: src/interface.c:290
+msgid "Connect"
+msgstr "Verbinden"
+
+#: src/interface.c:290
+msgid "Connect to the remote host"
+msgstr "Verbinden"
+
+#: src/interface.c:292
+msgid "Disconnect"
+msgstr "Trennen"
+
+#: src/interface.c:292
+msgid "Disconnect from the remote host"
+msgstr "Trennen"
+
+#: src/interface.c:294 src/interface.c:625
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#: src/interface.c:294
+msgid "Change your settings"
+msgstr "�ndern Sie Ihre Einstellungen"
+
+#: src/interface.c:296
+msgid "Help"
+msgstr "Hilfe"
+
+#: src/interface.c:296 src/interface.c:462
+msgid "Documentation"
+msgstr "Hilfe"
+
+#: src/interface.c:356
+msgid "Information"
+msgstr "Informationen"
+
+#: src/interface.c:418
+msgid "About GTelnet"
+msgstr "�ber Gnome-Telnet"
+
+#: src/interface.c:437
+msgid "Click here for a complete documentation"
+msgstr "Clicken Sie f�r ein Hilfe"
+
+#: src/interface.c:460
+msgid ""
+"GTelnet is a frontend for the following programs:\n"
+"\n"
+"- Telnet:  to communicate with another host using the TELNET protocol. \n"
+"\n"
+"- SSH:  ssh (Secure Shell) is a program for logging into a remote machine "
+"and for executing commands on a remote machine.  It is intended to replace "
+"rlogin and rsh, and provide secure encrypted communications between two "
+"untrusted hosts over an insecure network.  X11 connections and arbitrary "
+"TCP/IP ports can also be forwarded over the secure channel. (Copied from SSH "
+"manual)\n"
+"\n"
+"- RLogin: rlogin is a program that is a little bit similar to telnet. It is "
+"intended to make remote administration over local area network easier, but "
+"it can be very insecure. It is recommended that you use SSH instead of "
+"rlogin."
+msgstr ""
+"GTelnet ist ein frontend f�r das folgende programs:\n"
+"\n"
+"- Telnet:  to communicate with another host using the TELNET protocol. \n"
+"\n"
+"- SSH:  ssh (Secure Shell) is a program for logging into a remote machine "
+"and for executing commands on a remote machine.  It is intended to replace "
+"rlogin and rsh, and provide secure encrypted communications between two "
+"untrusted hosts over an insecure network.  X11 connections and arbitrary "
+"TCP/IP ports can also be forwarded over the secure channel. (Copied from SSH "
+"manual)\n"
+"\n"
+"- RLogin: rlogin is a program that is a little bit similar to telnet. It is "
+"intended to make remote administration over local area network easier, but "
+"it can be very insecure. It is recommended that you use SSH instead of "
+"rlogin."
+
+#: src/interface.c:480
+msgid "Copyright (C) 2000 the Free Software Foundation"
+msgstr "Copyright (C) 2000 the Free Software Foundation"
+
+#: src/interface.c:482
+msgid "GTelnet is a frontend to the ole good telnet, ssh, and rlogin"
+msgstr "GTelnet is a frontend to the ole good telnet, ssh, and rlogin"
+
+#: src/interface.c:484
+msgid "Authors: "
+msgstr "Autor: "
+
+#: src/interface.c:519
+msgid "Authors"
+msgstr "Autor"
+
+#: src/interface.c:555
+msgid ""
+"Today, there's a lot of poor children out there who need your help.\n"
+"\n"
+"For a dollar a day, you can help change a child's life forever. With your "
+"sponsorship, you will help provide basic needs like clean water, schools, "
+"clinics and agricultural training that will lift your sponsored child, "
+"his/her family, and community - out of poverty.\n"
+"\n"
+"If you have the resources available and if you're willing to help those who "
+"are less fortunate, please sponsor a child."
+msgstr ""
+"Today, there's a lot of poor children out there who need your help.\n"
+"\n"
+"For a dollar a day, you can help change a child's life forever. With your "
+"sponsorship, you will help provide basic needs like clean water, schools, "
+"clinics and agricultural training that will lift your sponsored child, "
+"his/her family, and community - out of poverty.\n"
+"\n"
+"If you have the resources available and if you're willing to help those who "
+"are less fortunate, please sponsor a child."
+
+#: src/interface.c:557
+msgid "For more information, please visit:"
+msgstr "Informationen:"
+
+#: src/interface.c:561
+msgid "http://www.WorldVision.com"
+msgstr "http://www.WorldVision.com"
+
+#: src/interface.c:570
+msgid "Please Help Needy Children"
+msgstr "Please Help Needy Children"
+
+#: src/interface.c:689
+msgid "Trace file"
+msgstr "Trace-Datei"
+
+#: src/interface.c:708
+msgid "Telnet Options"
+msgstr "Telnet-Einstellungen"
+
+#: src/interface.c:743
+msgid "3des"
+msgstr "3DES"
+
+#: src/interface.c:744
+msgid "blowfish"
+msgstr "blowfish"
+
+#: src/interface.c:783
+msgid "SSH Options"
+msgstr "SSH-Einstellungen"
+
+#: src/interface.c:832
+msgid "RLogin Options"
+msgstr "RLogin-Einstellungen"
+
+#: src/interface.c:842
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: src/interface.c:847
+msgid "Foreground color"
+msgstr "Vordergrundfarbe"
+
+#: src/interface.c:851
+msgid "Executable files color"
+msgstr "Farbe f�r ausf�hrbare Dateien"
+
+#: src/interface.c:855
+msgid "Directories color"
+msgstr "Farbe f�r Verzeichnisse"
+
+#: src/interface.c:859
+msgid "Display font"
+msgstr "Anzeigeschriftart"
+
+#: src/interface.c:863
+msgid "Background Image"
+msgstr "Hintergrundbild"
+
+#: src/interface.c:871
+msgid "Terminal type:"
+msgstr "Term-Typ"
+
+#: src/interface.c:968
+msgid "ansi"
+msgstr "ansi"
+
+#: src/interface.c:971
+msgid "Display Settings"
+msgstr "Anzeige-Einstellungen"
+
+#: src/interface.c:1018
+msgid "SSH Login"
+msgstr "SSH Anmeldung"
+
+#: src/interface.c:1035
+msgid "Username:"
+msgstr "Anmeldung:"
+
+#: src/interface.c:1326
+msgid "Please fill in the host name :-)"
+msgstr "F�llen Sie bitte den Rechner :-)"
+
+#: src/interface.c:1382
+msgid "Not connected"
+msgstr "Nicht Angeschlossen"
+
+#: src/support.c:100 src/support.c:138
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Kann Bilddatei %s nicht finden."
+
+#: src/support.c:116
+#, c-format
+msgid "Couldn't create pixmap from file: %s"
+msgstr "Kann Bild aus der Daten %s nicht erstellen."
+

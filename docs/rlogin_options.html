@@ -1,0 +1,68 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Prana - http://***.*****.***">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (X11; I; Linux 2.2.16-9mdkfb i686) [Netscape]">
+   <meta name="Keywords" content="rlogin">
+   <title>RLogin Options</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#0000FF" vlink="#FF0000" alink="#000088">
+
+<h1>
+GTelnet</h1>
+
+<h3>
+<a href="http://***.*****.***">http://***.*****.***</a></h3>
+
+<center>
+<p><br><b>RLogin options</b></center>
+
+<hr WIDTH="100%">
+<center><img SRC="pref_rlogin.jpg" NOSAVE height=505 width=604></center>
+
+<p><br>
+<br>
+<br>
+<br>
+<p><b>Allows an eight-bit input data path at all times</b>; otherwise parity
+bits are stripped except when the remote side's stop and start characters
+are other than <b>^S </b>/ <b>^Q</b>.
+<p><b>Stops any character from being recognized as an escape character</b>.&nbsp;
+When used with the option above, this provides a completely transparent
+connection.
+<p><b>Turns off all Kerberos authentication</b>. So you will be using the
+standard Berkeley <b>.rhosts</b> authorization mechanism instead.
+<p><b>Allows the rlogin session to be run in ``litout'' mode</b>.
+<p><b>Turns on socket debugging</b> on the TCP sockets used for communication
+with the remote host.
+<p><b>Set the initial escape character to</b>: ___ . With this option,
+you replace ``<b>~''</b> - the default escape character.&nbsp; This specification
+may be as a literal character, or as an octal value in the form <i>\nnn</i>.
+(eg: \099)
+<p><b>Request Kerberos tickets for the remote host in the realm</b>: _____.
+The option requests rlogin to obtain tickets for the remote host in the
+specified realm instead of the remote host's realm as determined by <i>krb_realmofhost</i>.
+<p><b>Turns on DES (<i>Data Encryption Standard</i>) encryption for all
+data passed via the rlogin session</b>.&nbsp; This may impact response
+time and CPU utilization, but provides increased security.
+<h4>
+<font color="#FF0000">Note from <u>RLogin manual</u> on Kerberos Authentication</font>:</h4>
+Each user may have a private authorization list in the file<b> .klogin</b>
+in their home directory.&nbsp; Each line in this file should contain a
+Kerberos principal name of the form <b><u>principal.instance@realm</u></b>.
+If the originating user is authenticated to one of the principals named
+in <b>.klogin</b>, access is granted to the account.&nbsp; The principal
+<b><u>accountname.@localrealm</u></b>
+is granted access if there is no
+<b><u>.klogin </u></b>file.&nbsp; Otherwise
+a login and password will be prompted for on the remote machine as in login.&nbsp;
+To avoid certain security problems, the <b><u>.klogin</u></b> file <u>must
+be owned by the remote user</u>. If Kerberos authentication fails, a warning
+message is printed and the standard Berkeley rlogin is used instead.
+<br>
+<hr WIDTH="100%">
+<center><a href="index.html">Home</a></center>
+
+</body>
+</html>

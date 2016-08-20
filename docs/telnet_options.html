@@ -1,0 +1,71 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Prana - http://***.*****.***">
+   <meta name="GENERATOR" content="Mozilla/4.73 [en] (X11; I; Linux 2.2.16-18fish i686) [Netscape]">
+   <meta name="Keywords" content="cyest">
+   <title>Telnet options</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#0000FF" vlink="#FF0000" alink="#000088">
+
+<h1>
+GTelnet</h1>
+
+<h3>
+<a href="http://***.*****.***">http://***.*****.***</a></h3>
+
+<center>
+<p><br><b>Telnet options</b></center>
+
+<hr WIDTH="100%">
+<center><img SRC="pref_telnet.jpg" NOSAVE height=505 width=604></center>
+
+<p><br>
+<br>
+<br>
+<p><b>Specifies an 8-bit data path.</b>&nbsp; This causes an attempt to
+negotiate the TELNET BINARY option <u>on both input and output</u>.
+<p><b>Specifies an 8-bit data path on output.</b>&nbsp; This causes the
+BINARY option to be negotiated <u>on output</u>.
+<p><b>Stops any character from being recognized as an escape character.
+</b>Turn
+off the escape character (default: <b>^[</b>&nbsp; )
+<p><b>Forward a forwardable copy of the local credentials to the remote
+systems</b>. If Kerberos V5 authentication is being used, this option allows
+the local credentials to be forwarded to the remote system, including any
+credentials that have already been forwarded into the local environment.
+<p><b>Disables the type of the specified authentication. </b>This option
+doesn't work on my computer. It _might_ be related to disabling either
+Kerberos or Berkeley authentication. I will look for more information and
+I will update this on the next version of GTelnet.
+<p><b>Attempt automatic login.</b>&nbsp; With this option, it will attempt
+to log in into the remote server with your current login (username).
+<p><b>Specifies a user interface similar to rlogin.</b>&nbsp; In this mode,
+the escape character is set to the tilde (~) character, unless the initial
+escape character has been specified in the preferences dialog. When in
+rlogin mode, a line of the form ~.&nbsp; disconnects from the remote host;
+~ is the telnet escape character.&nbsp; Similarly, the line ~^Z suspends
+the telnet session.&nbsp; The line <b>~^]</b> escapes to the normal telnet
+escape prompt.
+<p><b>Turns on encryption of the data stream</b> if possible (you can only
+do this if the remote telnet server also supports encryption of the data
+stream)
+<p><b>Sets the initial value of the debug toggle to TRUE</b> (<font color="#FF0000">super
+user only</font>)
+<p><b>Sets the IP type-of-service (TOS)</b> option for the telnet connection
+to the value <i>tos</i>, which can be a numeric TOS value or, on systems
+that support it, a symbolic TOS name found in the <b>/etc/iptos</b> file.
+<p><b>Sets the initial telnet escape character to </b>a specified character.
+If escapechar is omitted, then there will be no escape character.
+<p><b>Requests telnet to obtain Kerberos tickets for the remote host in
+realm</b>: _____. The option requests telnet to obtain tickets for the
+remote host in the specified realm instead of the remote host's realm as
+determined by <i>krb_realmofhost</i>.
+<p><b>Trace file</b>. Opens tracefile for recording trace information.
+<br>
+<hr WIDTH="100%">
+<center><a href="index.html">Home</a></center>
+
+</body>
+</html>

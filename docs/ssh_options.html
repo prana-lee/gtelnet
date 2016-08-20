@@ -1,0 +1,65 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Prana - http://***.*****.***">
+   <meta name="GENERATOR" content="Mozilla/4.75 [en] (X11; U; Linux 2.2.17-21fish i686) [Netscape]">
+   <meta name="Keywords" content="ssh">
+   <title>SSH Options</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#0000FF" vlink="#FF0000" alink="#000088">
+
+<h1>
+GTelnet</h1>
+
+<h3>
+<a href="http://***.*****.***">http://***.*****.***</a></h3>
+
+<center>
+<p><br><b>SSH options</b></center>
+
+<hr WIDTH="100%">
+<br>&nbsp;
+<br>&nbsp;
+<br>
+<center>
+<p><img SRC="pref_ssh.jpg" NOSAVE height=505 width=604></center>
+
+<p><br>
+<br>
+<br>
+<br>
+<p><b>Redirect&nbsp; input from /dev/null </b>- not from stdin
+<p><b>Disable authentication agent forwarding</b>
+<p><b>Disable X11 connection forwarding</b>
+<p><b>Allocate a tty even if a command is given</b>
+<p><b>Enable verbose mode</b>. Display verbose&nbsp; debugging&nbsp; messages.
+Print extensive debug information to&nbsp; stderr.&nbsp; <i>debug_level
+</i>is
+a number from 0 to 99, where 99 specifies that all debug information should
+be displayed
+<p><b>Don't display any warning messages</b>.
+<p><b>Don't request a session channel</b>. This&nbsp; can&nbsp; be&nbsp;
+used&nbsp; with port-forwarding&nbsp; requests&nbsp; if&nbsp; a session
+channel (and tty) isn't needed, or the server doesn't give one.
+<p><b>Fork into background after authentication</b>. This option can also
+be specified in the configuration file. Implies&nbsp; '-S' and&nbsp; '-n'.
+With this option, ssh2 stays in the background, waiting for connections
+indefinitely (it has to be&nbsp; killed for&nbsp; it to stop listening).
+With an optional `o' argument, it goes to ``one-shot'' mode, which means&nbsp;
+that&nbsp; once&nbsp; all channels are closed, ssh2 exits.
+<p><b>Enable compression of the data stream</b>.
+<p><b>Set the escape character to: ___</b>. Use ``none'' to disable. Leave
+blank for default.
+<p><b>Specifies the identity file for public key authentication</b>. Leave
+blank for default.
+<p><b>Select the encryption algorithm</b> that you want to use. Only 3DES
+and Blowfish are available for OpenSSH. For any other option it will only
+work for SSH.
+<br>&nbsp;
+<p>
+<hr WIDTH="100%">
+<center><a href="index.html">Home</a></center>
+
+</body>
+</html>

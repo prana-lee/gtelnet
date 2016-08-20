@@ -1,0 +1,364 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2001-01-06 18:27-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: src/interface.c:105
+msgid "8-bit data path (both output and input)"
+msgstr ""
+
+#: src/interface.c:106
+msgid "8-bit data path on output"
+msgstr ""
+
+#: src/interface.c:107
+msgid "Stop any character from being recognized as an escape character"
+msgstr ""
+
+#: src/interface.c:108
+msgid ""
+"Forward a forwardable copy of the local credentials to the remote system (if "
+"Kerberos V5 is used)"
+msgstr ""
+
+#: src/interface.c:109
+msgid "Attempt automatic login"
+msgstr ""
+
+#: src/interface.c:110
+msgid "Specify a user interface similar to rlogin"
+msgstr ""
+
+#: src/interface.c:111
+msgid "Turn on encryption of the data stream"
+msgstr ""
+
+#: src/interface.c:112
+msgid "Set the initial value of the debug flag to TRUE"
+msgstr ""
+
+#: src/interface.c:113 src/interface.c:145
+msgid "Set the initial telnet escape character to:"
+msgstr ""
+
+#: src/interface.c:114
+msgid "Set the IP type-of-service  (TOS)  option  to the value:"
+msgstr ""
+
+#: src/interface.c:115
+msgid "Disable the type of authentication: "
+msgstr ""
+
+#: src/interface.c:116
+msgid "Request  Kerberos tickets for the remote host in the realm:"
+msgstr ""
+
+#: src/interface.c:117
+msgid "Trace file :"
+msgstr ""
+
+#: src/interface.c:121
+msgid "Redirect input from /dev/null"
+msgstr ""
+
+#: src/interface.c:122
+msgid "Disable authentication agent forwarding"
+msgstr ""
+
+#: src/interface.c:123
+msgid "Disable X11 connection forwarding"
+msgstr ""
+
+#: src/interface.c:124
+msgid "Allocate a tty even if command is given"
+msgstr ""
+
+#: src/interface.c:125
+msgid "Display verbose debugging messages"
+msgstr ""
+
+#: src/interface.c:126
+msgid "Don't allocate a privileged port"
+msgstr ""
+
+#: src/interface.c:127
+msgid "Don't display any warning messages"
+msgstr ""
+
+#: src/interface.c:128
+msgid "Fork into background after authentication"
+msgstr ""
+
+#: src/interface.c:129
+msgid "Enable compression"
+msgstr ""
+
+#: src/interface.c:130
+msgid "Allow remote hosts to connect to local forwarded ports"
+msgstr ""
+
+#: src/interface.c:131
+msgid "Don't request a session"
+msgstr ""
+
+#: src/interface.c:132
+msgid "Set SSH2 debug level to:"
+msgstr ""
+
+#: src/interface.c:133
+msgid "Identity file for public key authentication to:"
+msgstr ""
+
+#: src/interface.c:134
+msgid "Set escape character to:"
+msgstr ""
+
+#: src/interface.c:135
+msgid ""
+"Select encryption algorithm (For OpenSSH: only '3des' and 'blowfish' are "
+"supported)"
+msgstr ""
+
+#: src/interface.c:139
+msgid "Allows an eight-bit input data path at all times"
+msgstr ""
+
+#: src/interface.c:140
+msgid "Stops any character from being recognized as an escape character"
+msgstr ""
+
+#: src/interface.c:141
+msgid "Turns off all Kerberos authentication"
+msgstr ""
+
+#: src/interface.c:142
+msgid "Allows the rlogin session to be run in \"litout\" mode"
+msgstr ""
+
+#: src/interface.c:143
+msgid "Turns on socket debugging"
+msgstr ""
+
+#: src/interface.c:144
+msgid "Turns on DES encryption for all data passed via the rlogin session"
+msgstr ""
+
+#: src/interface.c:146
+msgid "Request Kerberos tickets for the remote host in the realm:"
+msgstr ""
+
+#: src/interface.c:150
+msgid "Background Color"
+msgstr ""
+
+#: src/interface.c:151
+msgid "Foreground Color"
+msgstr ""
+
+#: src/interface.c:152
+msgid "Executable Files Color"
+msgstr ""
+
+#: src/interface.c:153
+msgid "Directories Color"
+msgstr ""
+
+#: src/interface.c:154
+msgid "Display Font"
+msgstr ""
+
+#: src/interface.c:155
+msgid "Background Image"
+msgstr ""
+
+#: src/interface.c:288
+msgid "GTelnet"
+msgstr ""
+
+#: src/interface.c:318
+msgid "Select one of the options"
+msgstr ""
+
+#: src/interface.c:337
+msgid " Host name "
+msgstr ""
+
+#: src/interface.c:367
+msgid " Port "
+msgstr ""
+
+#: src/interface.c:374
+msgid "port number -- leave blank for default"
+msgstr ""
+
+#: src/interface.c:379
+msgid "Connect"
+msgstr ""
+
+#: src/interface.c:379
+msgid "Connect to the remote host"
+msgstr ""
+
+#: src/interface.c:381
+msgid "Disconnect"
+msgstr ""
+
+#: src/interface.c:381
+msgid "Disconnect from the remote host"
+msgstr ""
+
+#: src/interface.c:383 src/interface.c:729
+msgid "Preferences"
+msgstr ""
+
+#: src/interface.c:383
+msgid "Change your settings"
+msgstr ""
+
+#: src/interface.c:385
+msgid "Help"
+msgstr ""
+
+#: src/interface.c:385 src/interface.c:570
+msgid "Documentation"
+msgstr ""
+
+#: src/interface.c:461
+msgid "Information"
+msgstr ""
+
+#: src/interface.c:526
+msgid "About GTelnet"
+msgstr ""
+
+#: src/interface.c:545
+msgid "Click here for a complete documentation"
+msgstr ""
+
+#: src/interface.c:568
+msgid ""
+"GTelnet is a frontend for the following programs:\n"
+"\n"
+"- Telnet:  to communicate with another host using the TELNET protocol. \n"
+"\n"
+"- SSH:  ssh (Secure Shell) is a program for logging into a remote machine "
+"and for executing commands on a remote machine.  It is intended to replace "
+"rlogin and rsh, and provide secure encrypted communications between two "
+"untrusted hosts over an insecure network.  X11 connections and arbitrary "
+"TCP/IP ports can also be forwarded over the secure channel. (Copied from SSH "
+"manual)\n"
+"\n"
+"- RLogin: rlogin is a program that is a little bit similar to telnet. It is "
+"intended to make remote administration over local area network easier, but "
+"it can be very insecure. It is recommended that you use SSH instead of "
+"rlogin."
+msgstr ""
+
+#: src/interface.c:588
+msgid "Copyright (C) 2000 the Free Software Foundation"
+msgstr ""
+
+#: src/interface.c:590
+msgid "GTelnet is a frontend to the ole good telnet, ssh, and rlogin"
+msgstr ""
+
+#: src/interface.c:592
+msgid "Authors: "
+msgstr ""
+
+#: src/interface.c:627
+msgid "Authors"
+msgstr ""
+
+#: src/interface.c:663
+msgid ""
+"Today, there's a lot of poor children out there who need your help.\n"
+"\n"
+"For a dollar a day, you can help change a child's life forever. With your "
+"sponsorship, you will help provide basic needs like clean water, schools, "
+"clinics and agricultural training that will lift your sponsored child, "
+"his/her family, and community - out of poverty.\n"
+"\n"
+"If you have the resources available and if you're willing to help those who "
+"are less fortunate, please sponsor a child."
+msgstr ""
+
+#: src/interface.c:665
+msgid "For more information, please visit:"
+msgstr ""
+
+#: src/interface.c:669
+msgid "http://www.WorldVision.com"
+msgstr ""
+
+#: src/interface.c:678
+msgid "Please Help Needy Children"
+msgstr ""
+
+#: src/interface.c:794
+msgid "Trace file"
+msgstr ""
+
+#: src/interface.c:812
+msgid "Telnet Options"
+msgstr ""
+
+#: src/interface.c:888
+msgid "SSH Options"
+msgstr ""
+
+#: src/interface.c:937
+msgid "RLogin Options"
+msgstr ""
+
+#: src/interface.c:958
+msgid "Terminal type:"
+msgstr ""
+
+#: src/interface.c:1057
+msgid "Display Settings"
+msgstr ""
+
+#: src/interface.c:1108
+msgid "SSH Login"
+msgstr ""
+
+#: src/interface.c:1125
+msgid "Username:"
+msgstr ""
+
+#: src/interface.c:1163
+msgid ""
+"If you don't want to see this login box, type user@hostname in the host name "
+"entry, and to restore the previous settings you can click the pulldown "
+"button next to it to retrieve the history."
+msgstr ""
+
+#: src/interface.c:1436
+msgid "Please fill in the host name :-)"
+msgstr ""
+
+#: src/interface.c:1509 src/interface.c:1520
+msgid "Not connected"
+msgstr ""
+
+#: src/support.c:100 src/support.c:138
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#: src/support.c:116
+#, c-format
+msgid "Couldn't create pixmap from file: %s"
+msgstr ""
