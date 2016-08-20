@@ -58,8 +58,7 @@ Hard way compile it:
 
 The executable can be found in "/usr/bin/gnome-telnet"
 I have tested this on Redhat Linux 6.2, Mandrake Linux 7.1 with HelixGnome v1.2
-If you encounter that you can't compile this on Slackware or Debian, please e-mail me to
-pranalukas@gmx.de with the detail of the error messages
+If you encounter that you can't compile this on Slackware or Debian, please e-mail me with the detail of the error messages
 
 TODO LIST:
 --------------------------------------------------------------------------------------------------------------
